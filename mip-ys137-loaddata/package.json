@@ -1,6 +1,7 @@
 {
     "name": "mip-ys137-loaddata",
     "version": "1.0.0",
+    "description": "异步加载数据",
     "contributors": [
         {
             "name": "regboy",

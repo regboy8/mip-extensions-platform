@@ -1,6 +1,7 @@
 {
     "name": "mip-ys137-themes",
     "version": "1.0.0",
+    "description": "页面主题样式管理",
     "contributors": [
         {
             "name": "regboy",
