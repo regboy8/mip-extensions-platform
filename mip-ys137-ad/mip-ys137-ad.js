@@ -12,13 +12,11 @@ define(function (require) {
     // 加载百度反屏蔽代码
     var getBaiduAd = function (tuId) {
         return [
-            '<mip-ad type="baidu-wm-ext" domain="',
-            baiduDomain,
-            '" token="',
-            tuId,
-            '"><div id="',
-            tuId,
-            '"></div></mip-ad>'].join('');
+            '<script src="',
+            document.location.protocol,
+            '//' + baiduDomain,
+            '/' + tuId + '.js',
+            '"></script>'].join('');
     };
 
     // 图加广告
